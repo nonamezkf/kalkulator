@@ -50,13 +50,13 @@
     border-left: none;
 }
 
+/* style dibawah ini berfunsi untuk memberi border kiri pada setiap 4 element sekali dengan dimulai dari elemen pertama */
 .button:nth-child(4n+1){
     border-left:1px solid #cecece;
 }
 
 .button:hover{
     cursor:pointer;
-    background-color: rgb(121, 207, 157);
 }
 
 #numberZero{
@@ -67,9 +67,18 @@
     font-weight:bolder;
     background-color: cadetblue;
 }
+
+.operator:hover{
+    background-color: rgb(69, 139, 134);
+}
+
 .hitung{
     background-color: cadetblue;
 }
 .hitung:hover{
-    background-color: rgb(16, 139, 129);
+    background-color: rgb(69, 139, 134);
+}
+
+.number:hover{
+    background-color: rgb(143, 143, 142);
 }
